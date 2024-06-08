@@ -1,0 +1,39 @@
+.div1{
+    /* text-align: center; */
+    border: 2px solid black;
+}
+.p1,h1,.p3{
+   text-align: center;
+   color:red;
+}
+#first{
+    color: red;
+    text-align: end;
+    margin: 20px;
+}
+.main{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ a{
+    border: solid 2px red;
+   margin: 50px 20px;
+   padding: 20px;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   width: 100px;
+   height: 100px;
+   border-style: solid dashed double dotted;
+   color: black;
+    text-decoration: none;
+    font-size: larger;
+    border-width: thick;
+    background-color: blueviolet;
+    border-color: red orange black white;
+}     
+     
+    

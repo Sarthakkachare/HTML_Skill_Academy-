@@ -1,0 +1,13 @@
+.main{
+
+    border: solid;
+    border-width: thin;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    background-color:rgb(69, 178, 178) ;
+    width: 700px;
+}
+hr{
+  color: black;
+}
+

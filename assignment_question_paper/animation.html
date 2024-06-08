@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            height: 200px;
+            width: 400px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 9s;
+        }
+        /* @keyframes example{
+            form{background-color: blue;}
+            to{background-color: yellow;}
+        } */
+        /* @keyframes example{
+           0%{background-color: blue;}
+           25%{background-color: yellow;}
+           50%{background-color: pink;}
+           100%{background-color: green;} */
+
+           .div1{
+            
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            animation-name: d1;
+            animation-duration: 10s;
+            position: absolute;
+            
+           }
+           @keyframes d1{
+            0%{margin-left:0%;}
+            50%{margin-top:50%;margin-left: 50%;}
+            100%{margin-left: 0%;}
+
+            }
+           .div2{
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+            animation-name: d2;
+            animation-duration: 10s;
+            right: 0;
+            position: absolute;
+            
+           }
+           @keyframes d2{
+            0%{margin-right: 0%;}
+            50%{margin-top: 50%;margin-right: 50%;}
+            100%{margin-right: 0%;}
+           }
+           .div3{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            animation-name:d3;
+            animation-duration: 10s;
+            left: 0;
+            bottom: 0;
+            position: absolute; 
+           }
+           @keyframes d3{
+            0%{margin-left:0%;}
+            50%{margin-bottom:50%;margin-left:50%;}
+            100%{margin-left: 0%;}
+            }
+           .div4{
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            animation-name: d4;
+            animation-duration: 10s;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+           }
+           @keyframes d4{
+            0%{margin-right: 0%;}
+            50%{margin-bottom:50%;margin-right: 50%;}
+            100%{margin-right: 0%;}
+           }
+
+        
+    </style>
+</head>
+<body>
+    <div class="div_main">
+        <div class="div1">This is div</div>
+        <div class="div2">This is div</div>
+        <div class="div3">This is div</div>
+        <div class="div4">This is div</div>
+    </div>
+
+
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main{
+            width: 50%;
+        }
+
+        .box-1{
+            width: 5px;
+            height: 50px;
+            align-self: baseline;
+            background-color: blue;
+            animation-name: line-1;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            transform: rotate(140deg);
+            margin-left: 20px;
+            animation-name: box-1;
+            animation-name: 5s;
+        }
+        .box-2{
+            width: 5px;
+            height: 50px;
+            align-self: baseline;
+            background-color: blue;
+            animation-name: line-1;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            right: 0;
+            transform: rotate(50deg);
+            margin-right: 20px;
+            animation-name: box-2;
+        }
+        .box-3{
+            width: 5px;
+            height: 50px;
+            align-self: baseline;
+            background-color: blue;
+            animation-name: line-1;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            bottom: 0;
+            transform: rotate(50deg);
+            margin-left: 20px;
+            animation-name: box-3;
+        }
+        .box-4{
+            width: 5px;
+            height: 50px;
+            align-self: baseline;
+            background-color: blue;
+            animation-name: line-1;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            transform: rotate(120deg);
+            margin-right: 20px;
+            animation-name: box-4;
+        }
+
+        @keyframes box-1 {
+            0%{margin-left: 20px;}
+            50%{margin-left: calc(49%); margin-top: 45vh; transform: rotate(0deg); background-color: red;}
+        }
+        @keyframes box-2 {
+            0%{margin-left: 20px;}
+            50%{margin-top: calc(40%); margin-right: 49vh; transform: rotate(90deg); background-color: lime;}
+        }
+        @keyframes box-3 {
+            0%{margin-left: 20px;}
+            50%{margin-left: calc(52%); margin-bottom: 45vh; transform: rotate(90deg); background-color: aqua;}
+        }
+        @keyframes box-4 {
+            0%{margin-left: 20px;}
+            50%{margin-bottom: calc(47%); margin-right: 46vh; transform: rotate(0deg); background-color: yellow;}
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="box-1"></div>
+    <div class="box-2"></div>
+    <div class="box-3"></div>
+    <div class="box-4"></div>
+</div>
+</body>
+</html> -->

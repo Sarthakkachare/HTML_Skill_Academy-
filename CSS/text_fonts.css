@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+h1{
+    color: r;
+    font-size: 4rem;
+    text-shadow: 2px 2px 10px blue, 2px 6px 10px yellow;
+    /* text-decoration: line-through underline overline violet; */
+    text-decoration:line-through red;
+    text-decoration-style:dotted;
+    text-underline-offset: 14px;
+    text-decoration-thickness:5px;
+    
+
+
+
+}
+p{
+    color: orange;
+    letter-spacing: 2.3px;
+    word-spacing: 10px;
+    text-indent: 3cm;
+    text-align:left;
+    border: solid 2px white;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Arial Narrow Bold';
+    font-style: unset;
+    
+
+}
+span{
+    color: white;
+    text-decoration:underline;
+    text-transform: uppercase;
+    font-weight: 800;
+}

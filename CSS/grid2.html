@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            display: grid;
+            background-color: black;
+            color: white;
+            margin: 50px auto;
+            width: 75%;
+            gap: 10px;
+            border: 1px solid rgb(231, 158, 158);
+            grid-template-columns: repeat(3,1fr) 150px;
+            grid-template-rows: 60px 100px 200px 64px;  
+        }
+        .nav1{
+            background-color: red;
+            grid-column: 1/5;
+        }
+        .con1{
+            background-color: rgb(255, 187, 0);
+        }
+        .con2{
+            background-color: rgb(98, 255, 0);
+        }
+        .con3{
+            background-color: rgb(0, 217, 255);
+        }
+        .rightbar{
+            background-color: rgb(217, 0, 255);
+            grid-row: 2/4;
+            grid-column: 4/5;
+        }
+        .main{
+            background-color: rgb(255, 0, 132);
+            grid-column: 1/4;
+        }
+        .fotter{
+            background-color: rgb(255, 0, 17);
+            grid-column: 1/5;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="nav1">navbar</div>
+        <div class="con1">content1</div>
+        <div class="con2">content2</div>
+        <div class="con3">content3</div>
+        <div class="rightbar">rightbar</div>
+        <div class="main">mainbar</div>
+        <div class="fotter">fotter</div>
+    </main>
+</body>
+</html>

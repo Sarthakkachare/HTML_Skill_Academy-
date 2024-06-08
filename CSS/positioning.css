@@ -1,0 +1,28 @@
+.image{
+    background-image: url("https://wallpapercave.com/wp/dvbKFz3.jpg");
+    background-color: red;
+    color: red;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100wh;
+    background-size: cover;
+    text-align: left;
+    padding: 20px;
+    font-size: 30px;
+    overflow:scroll;
+    
+    /* size: 100% 100%; */
+}
+h1{
+    font-size: 10rem;
+    text-shadow: 4px 4px 3px red;
+    background-color: grey;
+    text-align: center;
+    background-image: url("https://wallpapercave.com/wp/wp7422965.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+body{
+    background-color: burlywood;
+}

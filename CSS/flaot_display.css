@@ -1,0 +1,25 @@
+.container{
+background-color: lightgrey;
+height: 700px;
+width: 800px;
+margin: 50px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border: solid 6px grey;
+    float: left;
+    margin: 10px;
+    
+}
+.container > h1{
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    color: rgb(254, 34, 71);
+}
+.container > .text{
+    color: rgb(93, 80, 80);
+    text-align: justify;
+    margin: 20px 10px;
+}

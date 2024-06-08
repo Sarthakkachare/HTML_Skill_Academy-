@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+           
+            display: grid;
+            grid-template-areas:
+            'navbar navbar navbar navbar'
+            'leftbar mainbar mainbar mainbar'
+            'leftbar cont1bar cont2bar cont3bar'
+            'fotter fotter fotter fotter';
+            background-color: rgb(255, 8, 0);
+            gap: 10px;
+            height: 100vh;
+            grid-template-rows: 1fr 1fr 1fr 6fr;
+           
+        }
+        /* .griddemo{
+            background-color: aqua;
+            border: 3px solid black;
+            padding: 12px 23px;
+        } */
+        .nav{
+            grid-area: navbar;
+            background-color: rgb(180, 109, 33);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .left{
+            grid-area: leftbar;
+            background-color: #58ff2a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .main{
+            grid-area: mainbar;
+            background-color: rgb(238, 255, 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content1{
+            grid-area: cont1bar;
+            background-color: rgb(176, 34, 131);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content2{
+            grid-area: cont2bar; 
+            background-color: rgb(35, 145, 185);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content3{
+            grid-area: cont3bar;
+            background-color: rgb(155, 230, 230);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .fotter{
+            grid-area:fotter;
+            background-color: rgb(179, 51, 205);
+            display: flex;
+            align-items: center;
+            justify-content: center;        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav griddemo">home aboutus contactus</div>
+        <div class="left griddemo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, voluptatibus laboriosam nam tempore animi sed labore nemo veniam nostrum, magnam sapiente odio quaerat! Sequi ex, officiis necessitatibus impedit minima modi architecto, libero beatae perspiciatis numquam non amet nemo iste atque quae porro alias at. Ipsum magni ea sed. Consequuntur, non.</div>
+        <div class="main griddemo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt eum autem animi? Rerum reiciendis eos hic similique soluta voluptatum eum.</div>
+        <div class="content1 griddemo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, voluptatibus laboriosam nam tempore animi sed labore nemo veniam nostrum, magnam sapiente odio quaerat! Sequi ex, officiis necessitatibus impedit minima modi architecto, libero beatae perspiciatis numquam non amet nemo iste atque quae porro alias at. Ipsum magni ea sed. Consequuntur, non.</div>
+        <div class="content2 griddemo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt eum autem animi? Rerum reiciendis eos hic similique soluta voluptatum eum.</div>
+        <div class="content3 griddemo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, voluptatibus laboriosam nam tempore animi sed labore nemo veniam nostrum, magnam sapiente odio quaerat! Sequi ex, officiis necessitatibus impedit minima modi architecto, libero beatae perspiciatis numquam non amet nemo iste atque quae porro alias at. Ipsum magni ea sed. Consequuntur, non.</div>
+        <div class="fotter griddemo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt eum autem animi? Rerum reiciendis eos hic similique soluta voluptatum eum.</div>
+  
+    </div>
+</body>
+</html>
